@@ -6,6 +6,9 @@ products = [
 
 products.append({"name": "Кола", "price": "100", "stock": "5"})
 
+bad_snikers = {"name": "Сникерс", "price": "150", "stock": "20"}
+products.remove(bad_snikers)
+
 total_money = 0
 
 for product in products:
